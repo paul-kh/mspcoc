@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    box-sizing: border-box;
+  }
+
+.banner {
+    background: linear-gradient(90deg, #7AA2D2 ,#000000);
+}
+
+
+.image-slideshow {
+  background: lightslategray;
+  height: 300px;
+}
+
+.main-content {
+  height: 500px;
+}
+
+.resources {
+  height: 300px;
+}
+
+.footer-nav-text {
+  font-size: 0.9rem;
+  letter-spacing: -0.01rem;
+  
+}
+
+footer {
+  background: linear-gradient(90deg, #3A4961 ,#000000);
+}
+footer p {
+  font-size: 1rem;
+  letter-spacing: -0.02rem;
+  font-weight: bold;
+}
