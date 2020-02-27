@@ -88,9 +88,32 @@
 
     <!-- MAIN CONTENT -->
     <div class="container">
-        <section class="row image-slideshow">
-            <div class="col">
-                <p>image carousel</p>
+        <section class="row">
+            <div class="col p-0">
+                <div id="carouselExampleControls" class="carousel slide custom-carousel" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://picsum.photos/1000" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://picsum.photos/800" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://picsum.photos/600" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev previous" href="#carouselExampleControls" role="button"
+                        data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next next" href="#carouselExampleControls" role="button"
+                        data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                        <span class="sr-only ">Next</span>
+                    </a>
+                </div>
+
             </div>
         </section>
         <section class="row main-content bg-success">
@@ -102,31 +125,32 @@
     </div>
 
     <!-- FOOTER -->
-    <footer class="container-fluid bg-dark pt-1 pb-5">
+    <footer class="container-fluid bg-dark pt-1 pb-3">
         <div class="container">
             <div class="row text-white">
                 <div class="col-10">
                     <div class="row d-flex justify-content-center footer-nav-text">
-                        <div class=" col-md-12 col-lg-auto">HOME</div>
-                        <div class="col-md-12 col-lg-auto"> WHO WE ARE</div>
-                        <div class="col-md-12 col-lg-auto">RESOURCES</div>
-                        <div class="col-md-12 col-lg-auto">GET CONNECTED</div>
-                        <div class="col-md-12 col-lg-auto">GET INVOLVED</div>
-                        <div class="col-md-12 col-lg-auto">WHERE TO FIND US</div>
-                        <div class="col-md-12 col-lg-auto">LINK</div>
-                    </div>
-                    <div class="row mt-3">
-                        <div class="col text-center text-white">
-                            <p class="copy-right">
-                                &copy;Copyright Minneapolis-St. Paul Church of Christ.
-                                All
-                                Rights Reserved.
-                            </p>
-                        </div>
+                        <div class="col-md-12 col-lg-auto"><a href="#">HOME</a></div>
+                        <div class="col-md-12 col-lg-auto"><a href="#"> WHO WE ARE</a></div>
+                        <div class="col-md-12 col-lg-auto"><a href="#">RESOURCES</a></div>
+                        <div class="col-md-12 col-lg-auto"><a href="#">GET CONNECTED</a></div>
+                        <div class="col-md-12 col-lg-auto"><a href="#">GET INVOLVED</a></div>
+                        <div class="col-md-12 col-lg-auto"><a href="#">WHERE TO FIND US</a></div>
+                        <div class="col-md-12 col-lg-auto"><a href="#">LINKS</a></a></div>
                     </div>
                 </div>
                 <div class="col-2 text-right footer-nav-text">
                     FOLLOW US (FACEBOOK V)
+                </div>
+            </div>
+
+            <div class="row mt-2">
+                <div class="col text-center text-white">
+                    <p class="copy-right">
+                        &copy;Copyright Minneapolis-St. Paul Church of Christ.
+                        All
+                        Rights Reserved.
+                    </p>
                 </div>
             </div>
         </div>
