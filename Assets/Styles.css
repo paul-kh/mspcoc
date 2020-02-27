@@ -4,10 +4,15 @@
   }
   body {
     box-sizing: content-box;
+    font-family: "Open Sans", sans-serif;
   }
 
 .banner {
     background: linear-gradient(90deg, #7AA2D2 ,#000000);
+}
+
+.custom-nav-text{
+  letter-spacing: -0.04rem;
 }
 
 
@@ -23,6 +28,16 @@
   height: 500px;
 }
 
+.schedule {
+  padding:75px 5px;
+}
+
+.welcome {
+  font-family: 'Alex Brush', cursive;
+  color: #1A232E;
+  line-height: 60px;
+  font-size: 50px;
+}
 .resources {
   height: 300px;
 }
