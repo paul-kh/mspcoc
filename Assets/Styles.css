@@ -28,7 +28,7 @@
 }
 
 .schedule {
-  padding: 75px 5px 15px 5px;
+  padding: 78px 5px 15px 5px;
 }
 
 .welcome {
@@ -36,6 +36,7 @@
   color: #1A232E;
   line-height: 60px;
   font-size: 50px;
+  margin: 10px 5px;
 }
 .resources {
   height: 300px;
