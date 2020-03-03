@@ -5,6 +5,8 @@
   body {
     box-sizing: content-box;
     font-family: "Open Sans", sans-serif;
+    letter-spacing: -0.01rem;
+    color: #000000;
   }
 
 .banner {
@@ -36,10 +38,41 @@
   color: #1A232E;
   line-height: 60px;
   font-size: 50px;
-  margin: 10px 5px;
+  margin: 10px 5px 0 5px;
 }
-.resources {
-  height: 300px;
+
+.resource-header {
+  background-color: #374761;
+  color: white;
+  font-size: 24px;
+  letter-spacing: -0.04rem;
+  text-align: center;
+  padding: 3px 0;
+  margin: 20px 0;
+}
+
+.resources-text a {
+  color: #0000FF;
+  text-decoration: underline;
+}
+.resources-text iframe{
+  margin: 80px 0;
+}
+
+@media screen and (min-width: 992px){
+  .follow-us {
+    position: relative;
+    margin-top: -55px;
+  }
+  .follow-us-text {
+    position: relative;
+    margin-top: -15px;
+  }
+}
+
+.follow-us :nth-child(1){
+  display: inline-block;
+  margin-right: 5px;
 }
 
 .footer-nav-text {
